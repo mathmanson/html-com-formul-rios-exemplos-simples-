@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exerc</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Exercícios</h1>
+    <p><a href="inicio.html" target="_self" >Home</a></p>
+    <hr>
+
+    <form class="login" action=" ">
+
+        <h3>1.Login</h3>
+        <input type="text" placeholder="insira nome de usuário">
+        <input type="password" placeholder="insira sua senha">
+        <button type="submit">Log in</button>
+
+    </form>
+
+    <hr>
+
+    <form action="">
+
+        <h3>2.Formulário</h3>
+        <input type="text" placeholder="insira nome de usuário">
+        <input type="email" placeholder="insira seu e-mail">
+        <input type="tel" placeholder="insira seu telefone">
+        <input type="password" placeholder="insira sua senha">
+        <textarea name="" id="" cols="30" rows="10">Observações: </textarea>
+        <button type="submit">Enviar</button>
+       
+    </form>
+
+    <hr>
+
+    <form action="">
+
+        <h3>3.Formulário festa</h3>
+        <input type="text" placeholder="insira nome de usuário">
+        <input type="email" placeholder="insira seu e-mail">
+        <input type="tel" placeholder="insira seu telefone">
+        <input type="text" placeholder="insira sua cidade">
+        <p>Participação presencial <input type="radio"></p>
+        <p>Participação online <input type="radio"></p>
+        <button type="submit">Enviar inscrição</button>
+
+    </form>
+
+    <hr>
+
+    <form action=" ">
+
+        <h3>4.Tarefas de casa</h3>
+        <p>Fazer compras<input type="checkbox"></p>
+        <p>Tirar o lixo<input type="checkbox"></p>
+        <p>Passear com o cachorro<input type="checkbox"></p>
+        <p>Aspirar a casa<input type="checkbox"></p>
+        <button type="submit">Adicionar tarefa</button>
+        
+    </form>
+</body>
+</html>
